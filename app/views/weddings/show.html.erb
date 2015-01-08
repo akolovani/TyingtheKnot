@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @wedding.name %>
+</p>
+
+<p>
+  <strong>Reservation:</strong>
+  <%= @wedding.reservation %>
+</p>
+
+<%= link_to 'Edit', edit_wedding_path(@wedding) %> |
+<%= link_to 'Back', weddings_path %>
